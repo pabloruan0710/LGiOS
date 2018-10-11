@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="KGk-i7-Jjw" customClass="AtividadeTableViewCell" customModule="LG_Atividades" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6E-Ir-7Gi">
+                        <rect key="frame" x="2" y="2" width="282" height="39.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taC-Tm-IF8">
+                                <rect key="frame" x="8" y="2" width="266" height="35.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bw4-qS-lFH">
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="39.5"/>
+                                <color key="backgroundColor" red="0.082600273220000006" green="0.7355197483" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="DG3-Y0-be6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="taC-Tm-IF8" secondAttribute="bottom" constant="2" id="0oq-WJ-kz5"/>
+                            <constraint firstItem="taC-Tm-IF8" firstAttribute="top" secondItem="D6E-Ir-7Gi" secondAttribute="top" constant="2" id="B7C-9Q-eCN"/>
+                            <constraint firstAttribute="trailing" secondItem="taC-Tm-IF8" secondAttribute="trailing" constant="8" id="Bp5-w9-DbX"/>
+                            <constraint firstItem="Bw4-qS-lFH" firstAttribute="leading" secondItem="D6E-Ir-7Gi" secondAttribute="leading" id="ChX-4w-xxb"/>
+                            <constraint firstAttribute="bottom" secondItem="Bw4-qS-lFH" secondAttribute="bottom" id="RYn-oW-VjJ"/>
+                            <constraint firstItem="taC-Tm-IF8" firstAttribute="leading" secondItem="D6E-Ir-7Gi" secondAttribute="leading" constant="8" id="c29-s7-BW8"/>
+                            <constraint firstItem="Bw4-qS-lFH" firstAttribute="top" secondItem="D6E-Ir-7Gi" secondAttribute="top" id="kpb-JF-Jj3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="4"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="D6E-Ir-7Gi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="BQ3-tK-3ks"/>
+                    <constraint firstAttribute="bottom" secondItem="D6E-Ir-7Gi" secondAttribute="bottom" constant="2" id="Vs7-D2-9lW"/>
+                    <constraint firstAttribute="trailing" secondItem="D6E-Ir-7Gi" secondAttribute="trailing" constant="2" id="X3A-3p-BQi"/>
+                    <constraint firstItem="D6E-Ir-7Gi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="d0r-au-1g3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cardView" destination="D6E-Ir-7Gi" id="140-HH-8qj"/>
+                <outlet property="lbIsRead" destination="Bw4-qS-lFH" id="9UX-rK-0Zh"/>
+                <outlet property="lbNome" destination="taC-Tm-IF8" id="np8-Ct-50E"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="153.82308845577214"/>
+        </tableViewCell>
+    </objects>
+</document>

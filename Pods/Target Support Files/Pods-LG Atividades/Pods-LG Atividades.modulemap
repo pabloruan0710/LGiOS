@@ -1,0 +1,6 @@
+framework module Pods_LG_Atividades {
+  umbrella header "Pods-LG Atividades-umbrella.h"
+
+  export *
+  module * { export * }
+}
