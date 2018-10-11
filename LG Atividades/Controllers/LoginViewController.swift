@@ -87,7 +87,6 @@ extension LoginViewController : GIDSignInUIDelegate {
         //GIDSignIn.sharedInstance()?.signIn()
     }
     @objc func loginGoogle(){
-        GIDSignIn.sharedInstance()?.signIn()
         self.showLoading()
     }
     func sign(_ signIn: GIDSignIn!, dismiss viewController: UIViewController!) {
